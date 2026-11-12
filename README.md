@@ -3,7 +3,7 @@
 Pinned kernel and module sources for Fogos and Rhodep, based on Motorola `MMI-W1UOS36H.35-39-7` (Linux 6.1.145). Kernel, display and graphics retain Motorola history. Fogos and Rhodep module sources share `motorola-kernel-modules`, branch `sedona-6.1`; retained Fogos drivers are under `legacy/fogos`.
 
 ```sh
-repo init -u https://github.com/AyakaUI-Devices/kernel_manifest.git -b main
+repo init -u https://github.com/AyakaUI-Devices/kernel_manifest.git -b seventeen
 repo sync -c -j8
 ./build/setup.sh
 ./build.sh FOGOS
